@@ -1,3 +1,10 @@
 yt-dlp>=2024.01.01
 selenium>=4.15.0
 webdriver-manager>=4.0.1
+beautifulsoup4>=4.12.2
+
+# Optional (if you call yt-dlp that requires ffmpeg):
+# ffmpeg is not a pip package; place ffmpeg.exe in the project's `ffmpeg/` folder or add to PATH
+yt-dlp>=2024.01.01
+selenium>=4.15.0
+webdriver-manager>=4.0.1
